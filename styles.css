@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+@font-face {
+    font-family: inter;
+    src: url(fonts/inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+body {
+    line-height: 1.5;
+    font-family: inter;
+}
