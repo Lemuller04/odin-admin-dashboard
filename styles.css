@@ -14,11 +14,17 @@
 body {
     line-height: 1.5;
     font-family: inter;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: auto auto 1fr;
 }
 
 header {
     display: grid;
     grid-template-columns: 1fr 6fr;
+    grid-area: 1 / 1 / 2 / 3;
 }
 
 .logo-container {
@@ -98,4 +104,37 @@ header {
     font-weight: 700;
     padding: 0 4vw 0 2vw;
     font-size: 1.2rem;
+}
+
+nav {
+    grid-area: 2 / 1 / 4 / 2;
+    background-color: #2F96D1;
+    color: #fff;
+    font-weight: 700;
+    padding: 1vw 1.5vw;
+    font-size: 1.2rem;
+}
+
+nav ul {
+    margin-bottom: 70px;
+}
+
+nav li {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 2px;
+    margin-bottom: 15px;
+}
+
+nav img {
+    height: 25px;
+}
+
+.user-actions {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+main {
+    grid-area: 3 / 2 / 4 / 3;
 }

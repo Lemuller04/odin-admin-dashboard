@@ -3,7 +3,7 @@
    viewBox="0 0 24 24"
    version="1.1"
    id="svg1"
-   sodipodi:docname="bell-ring.svg"
+   sodipodi:docname="messages.svg"
    inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -20,16 +20,20 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="36.541667"
-     inkscape:cx="12"
-     inkscape:cy="12"
-     inkscape:window-width="1900"
+     inkscape:zoom="16.833333"
+     inkscape:cx="11.970297"
+     inkscape:cy="11.970297"
+     inkscape:window-width="1068"
      inkscape:window-height="1032"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg1" />
   <path
-     d="M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M14,21A2,2 0 0,1 12,23A2,2 0 0,1 10,21M19.75,3.19L18.33,4.61C20.04,6.3 21,8.6 21,11H23C23,8.07 21.84,5.25 19.75,3.19M1,11H3C3,8.6 3.96,6.3 5.67,4.61L4.25,3.19C2.16,5.25 1,8.07 1,11Z"
+     d="M20,2H4A2,2 0 0,0 2,4V22L6,18H20A2,2 0 0,0 22,16V4C22,2.89 21.1,2 20,2Z"
      id="path1" />
+  <path
+     style="fill:#ffffff;stroke-width:0.0594059"
+     d="M 2.0339287,12.742574 2.049505,3.5346535 2.2147311,3.1981985 C 2.4249138,2.7701968 2.7701968,2.4249138 3.1981985,2.2147311 L 3.5346535,2.049505 H 12 20.465347 l 0.336455,0.1652261 c 0.428001,0.2101827 0.773284,0.5554657 0.983467,0.9834674 l 0.165226,0.336455 0.01617,6.3218625 c 0.01438,5.625071 0.0058,6.357554 -0.07797,6.645675 -0.230247,0.792024 -0.811659,1.301265 -1.638941,1.435502 -0.244975,0.03975 -2.829854,0.06157 -7.328629,0.06186 L 5.9709523,18 l -1.9762999,1.975248 -1.9763,1.975247 z"
+     id="path2" />
 </svg>
