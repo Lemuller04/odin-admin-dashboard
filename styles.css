@@ -131,7 +131,6 @@ nav img {
 }
 
 .user-actions {
-    margin-top: 10px;
     padding-bottom: 20px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
 
@@ -172,4 +171,54 @@ nav img {
 
 main {
     grid-area: 3 / 2 / 4 / 3;
+
+    background-color: #D0D4DD;
+
+    display: grid;
+    grid-template: 1fr 1fr / 6fr 2fr;
+    padding: 30px 15px;
+}
+
+main>section>p {
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+hr {
+    margin: 20px 0 20px 0;
+}
+
+.user-projects {
+    grid-area: 1 / 1 / 3 / 2;
+}
+
+.announcements {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.announcements>div,
+.trending>div {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px 40px;
+
+    >p {
+        color: #333;
+    }
+}
+
+.announcements span {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.trending {
+    margin-top: 25px;
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.trending p {
+    display: flex;
+    align-items: center;
 }
